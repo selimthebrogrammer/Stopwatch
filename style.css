@@ -1,0 +1,38 @@
+*{
+         margin: 0;
+         padding : 0;
+         box-sizing: border-box;
+         font-family: 'Poppins', sans-serif;
+}
+
+body {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+}
+
+.timer {
+         
+         margin: 10px;
+         padding: 10px;
+         font-weight: lighter;
+         font-size: 48px;
+         margin-left: 64px;
+}
+
+button {
+         width: 88px;
+         height: 36px;
+         border-radius: 20px;
+         border : none;
+         background-color: rgb(121, 120, 120);
+         padding: 5px;
+         margin-left: 10px;
+         margin-right: 10px;
+         color: white;
+         font-weight: bolder;
+         letter-spacing: 0.9px;
+         cursor: pointer;
+}
